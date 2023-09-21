@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy, sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --green: #14ae5c;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 90%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+}
+input:disabled {
+  background: transparent;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+.loading_div {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
