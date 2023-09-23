@@ -7,12 +7,13 @@
 .home .filter::before {
     content: "";
     width: 100%;
-    top: 350px;
+    top: 200px;
     min-height: 800px;
     position: absolute;
     border-radius: 987px;
     background: #131313;
     filter: blur(60px);
+
 }
 
 .home .filter .posi {
