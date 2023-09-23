@@ -12,8 +12,8 @@
   position: absolute;
   border-radius: 987px;
   background: #131313;
-  filter: blur(60px);
-}
+  filter: blur(60px);}
+
 .home .filter .posi {
   position: absolute;
   z-index: 1;
