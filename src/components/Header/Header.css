@@ -1,14 +1,22 @@
 .header {
+  display: flex;
+  align-items: center;
   width: 100%;
+  height: 100px;
+  background: rgba(32, 32, 32, 0.98);
 }
 .header .block {
-  padding: 10px 0px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .header .page {
-    color: #000;
-    font-size: 18px;
-    font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 400;
+  line-height:20px;
+  letter-spacing: 0.22px;
 }

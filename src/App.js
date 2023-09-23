@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route />
+        <Route path="/" element={<Main />} />
       </Routes>
-      <h1 className="title_ihsan">NAVIS-DEWS</h1>
     </div>
   );
 }
