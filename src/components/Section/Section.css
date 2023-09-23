@@ -1,5 +1,5 @@
 .section {
-  padding-top: 170px;
+  padding-top: 270px;
   width: 100%;
   min-height: 1450px;
   background: #131313 ;
@@ -65,6 +65,9 @@
   line-height: 28px;
   letter-spacing: 0.6px;
 }
-.section .grid_box img{
-
+.section .image1 {
+  margin-top: 50px;
+}
+.section .image3{
+  margin-top: 40px;
 }

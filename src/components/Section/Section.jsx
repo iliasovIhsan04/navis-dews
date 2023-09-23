@@ -24,15 +24,18 @@ const Section = () => {
               Разработка удобной и заточенной под клиента системы управления
               сайтом
             </p>
-            <img src={image1} alt="" />
+            <img className="image1" src={image1} alt="" />
           </div>
           <div className="grid_box">
-            <h1>Адаптивный сайт</h1>
+            <h1>
+              Адаптивный
+              <h3> сайт</h3>
+            </h1>
             <p>
               Создание адаптивного сайта под все существующие платформы и
               браузеры
             </p>
-            <img src="" alt="" />
+            <img className="image2" src="" alt="" />
           </div>
           <div className="grid_box">
             <h1>Анализ рынка и конкурентов</h1>
@@ -40,14 +43,17 @@ const Section = () => {
               Разработка концепции сайта, на основе анализа рынка, конкурентов и
               тенденций
             </p>
-            <img src={search} alt="" />
+            <img className="image3" src={search} alt="" />
           </div>
           <div className="grid_box">
-            <h1>SEO Оптимизация</h1>
+            <h1>
+              SEO
+              <h3> Оптимизация</h3>
+            </h1>
             <p>
               Внутренняя SEO оптимизация сайта под поисковики Google и Яндекс
             </p>
-            <img src={game} alt="" />
+            <img className="image4" src={game} alt="" />
           </div>
           <div className="grid_box">
             <h1>
@@ -58,7 +64,7 @@ const Section = () => {
               При необходимости написание вкусного, продающего контента для
               сайта
             </p>
-            <img src={planshet} alt="" />
+            <img className="image5" src={planshet} alt="" />
           </div>
           <div className="grid_box">
             <h1>
@@ -69,7 +75,7 @@ const Section = () => {
               Разработка концепции сайта, на основе анализа рынка, конкурентов и
               тенденций
             </p>
-            <img src={ui} alt="" />
+            <img className="image6" src={ui} alt="" />
           </div>
         </div>
       </div>
