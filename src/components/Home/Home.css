@@ -4,6 +4,8 @@
     position: relative;
 }
 
+
+
 .home .filter::before {
     content: "";
     width: 100%;
