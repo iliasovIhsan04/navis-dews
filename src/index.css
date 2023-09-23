@@ -4,17 +4,11 @@
   box-sizing: border-box;
   font-family: Gilroy, sans-serif;
 }
-body {
-  background: black;
-}
+
 :root {
   --green: #14ae5c;
 }
-.container {
-  margin: 0 auto;
-  max-width: 1140px;
-  width: 90%;
-}
+
 li {
   list-style: none;
 }
@@ -33,6 +27,7 @@ button {
 }
 button:hover {
   opacity: 0.8;
+  color: #ffffff;
 }
 .loading_div {
   width: 100%;

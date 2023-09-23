@@ -1,84 +1,137 @@
 .home {
-  width: 100%;
-  min-height: 800px;
-  background-image: url("../../../src/img/comp.bacground.svg");
+    background: url("../../../src/img/comp.bacground.svg") no-repeat center /cover;
+    min-height: 100vh;
+    position: relative;
 }
+
+.home .filter::before {
+    content: "";
+    width: 100%;
+    top: 350px;
+    min-height: 800px;
+    position: absolute;
+    border-radius: 987px;
+    background: #131313;
+    filter: blur(60px);
+}
+
+.home .filter .posi {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .home .title {
-  padding: 207px 20px 20px 20px;
-  text-align: center;
-  font-size: 65px;
-  font-weight: 400;
-  line-height: 70px;
-  letter-spacing: 1.95px;
-  text-transform: uppercase;
-  background: linear-gradient(263deg, #b9b9b9 33.19%, #fff 96.63%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    padding: 115px 20px 20px 20px;
+    max-width: 1443px;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+    background: linear-gradient(263deg, #b9b9b9 33.19%, #fff 96.63%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .home .contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.home .contact .lina {
+    width: 2px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: 40px;
+    border: 1px solid #000;
+    background: linear-gradient(180deg, #BA0E36 0%, rgba(186, 14, 54, 0.00) 100%);
+}
+
 .home .contact p {
-  width: 248px;
-  height: 82px;
-  color: #fff;
-  font-family: Gilroy;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23px;
-  letter-spacing: 0.54px;
-  margin-left: 70px;
+    width: 248px;
+    height: 82px;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.54px;
+    margin-left: 50px;
 }
+
+
 .home .btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 457px;
-  height: 100px;
-  background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%);
-  color: #fff;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: normal;
-  border: none;
-  outline: none;
-  border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 457px;
+    height: 100px;
+    background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    outline: none;
+    border-radius: 20px;
 }
+
 .home .my_developer {
-  margin-top: 145px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    margin-top: 145px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 .home .developer_rev {
-  width: 400px;
-  height: 250px;
-  background: linear-gradient(83deg, #8d2131 0.59%, #bc3138 100%);
-  border-radius: 20px;
-  padding: 60px 50px;
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(83deg, #8d2131 0.59%, #bc3138 100%);
+    border-radius: 20px;
+    padding: 60px 50px;
+    position: relative;
 }
+.home .developer_rev .line{
+    width: 1px;
+    height: 200px;
+    top: 26px;
+    left: 400px;
+    z-index: 1;
+    background: #FFF;
+    position: absolute;
+}
+
 .home .developer_rev h1 {
-  text-align: center;
-  font-size: 60px;
-  font-weight: 400;
-  line-height: 50px;
-  letter-spacing: 5.7px;
-  background: linear-gradient(266deg, #a8a8a8 34.71%, #fff 60.5%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 5.7px;
+    background: linear-gradient(266deg, #a8a8a8 34.71%, #fff 60.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .home .developer_rev p {
-  color: #fff;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.6px;
-  margin-top: 38px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+    margin-top: 38px;
 }
