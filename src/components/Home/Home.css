@@ -7,7 +7,7 @@
 .home .filter::before {
     content: "";
     width: 100%;
-    top: 0px;
+    top: 0;
     min-height: 800px;
     position: absolute;
     border-radius: 987px;
