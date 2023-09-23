@@ -35,7 +35,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 85px;
+  gap: 55px;
 }
 .section .grid_box {
   width: 100%;
@@ -43,13 +43,18 @@
   border-radius: 22px;
   background: linear-gradient(202deg, #bc3138 -37.45%, #8d2131 100%);
 }
-.section .grid_box h1 {
+.section .grid_box h1{
   padding: 50px 50px 0px 50px;
   color: #fff;
   font-size: 28px;
   font-weight: 400;
   line-height: 31px;
   letter-spacing: 2.66px;
+}
+.section .grid_box h1> h3{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
 }
 .section .grid_box p {
   padding: 25px 30px 0px 50px;
@@ -58,4 +63,6 @@
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.6px;
+}
+.section .grid_box img{
 }
