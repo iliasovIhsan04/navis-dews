@@ -50,10 +50,10 @@
 }
 
 .home .contact .lina {
-    width: 2px;
-    height: 100px;
+    width: 3px;
+    height: 92px;
     flex-shrink: 0;
-    margin-left: 40px;
+    margin-left: 41px;
     border: 1px solid #000;
     background: linear-gradient(180deg, #BA0E36 0%, rgba(186, 14, 54, 0.00) 100%);
 }
