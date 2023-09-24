@@ -36,6 +36,9 @@
   cursor: pointer;
   text-decoration: none;
 }
+.header .page:hover{
+border-bottom: 2px solid #fff;
+}
 .header .burger_block {
   display: flex;
   flex-direction: column;
@@ -82,9 +85,9 @@
 .header .modal_block h1 {
   color: #fff;
   text-align: center;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 40px;
   letter-spacing: 2.66px;
 }
 .header .modal_block p {
@@ -93,16 +96,16 @@
   flex-direction: column;
   color: #c5c5c5;
   text-align: center;
-  font-size: 12px;
+  font-size: 25px;
   font-weight: 400;
-  line-height: 13px;
+  line-height: 23px;
   letter-spacing: 0.48px;
 }
 .header .modal_block p > span {
   color: #fff;
-  font-size: 12px;
+  font-size: 22px;
   font-weight: 700;
-  line-height: 115%;
+  line-height: 20px;
   letter-spacing: 0.48px;
 }
 .header .input_block {
@@ -119,10 +122,11 @@
   margin-top: 20px;
   padding: 20px;
   outline: none;
+  font-size: 30px;
 }
 .header .input_box::placeholder {
   color: #8e8e8e;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0.6px;

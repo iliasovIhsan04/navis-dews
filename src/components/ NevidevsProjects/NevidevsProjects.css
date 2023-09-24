@@ -23,7 +23,7 @@
   border-radius: 20px;
   padding: 25px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 .nevidevs_projects .project_box1 {
   width: 100%;
