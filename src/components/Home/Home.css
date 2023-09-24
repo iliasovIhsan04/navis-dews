@@ -12,24 +12,22 @@
   position: absolute;
   border-radius: 987px;
   background: #131313;
-  filter: blur(60px);}
-
+  filter: blur(60px);
+}
 .home .filter .posi {
   position: absolute;
   z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 1300px;
 }
 .home .title {
   padding: 115px 20px 20px 20px;
   max-width: 1443px;
   text-align: center;
-  font-size: 65px;
+  font-size: 51px;
   font-weight: 400;
   line-height: 70px;
   letter-spacing: 1.95px;
@@ -43,14 +41,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.home .contact .lina {
-  width: 3px;
-  height: 92px;
-  flex-shrink: 0;
-  margin-left: 41px;
-  border: 1px solid #000;
-  background: linear-gradient(180deg, #ba0e36 0%, rgba(186, 14, 54, 0) 100%);
 }
 .home .contact p {
   width: 248px;
@@ -79,34 +69,23 @@
   border-radius: 20px;
 }
 .home .my_developer {
-  background: url("../../img//kartina.svg")no-repeat center;
+  background: url("../../img//kartina.svg") no-repeat center / cover;
+  border-radius: 20px;
   margin-top: 145px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-    to right,
-    rgba(141, 33, 49, 1) 0%,
-    rgba(188, 49, 56, 1) 100%
-  );
   padding: 20px 0;
 }
 .home .developer_rev {
   width: 33.33%;
-  padding: 60px 50px;
+  padding: 50px 50px;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
-/* .home .developer_rev .line {
-  width: 1px;
-  height: 200px;
-  top: 26px;
-  left: 400px;
-  z-index: 1;
-  background: #fff;
-  position: absolute;
-} */
-
+.home .developer_rev:last-child {
+  border: none;
+}
 .home .developer_rev h1 {
   text-align: center;
   font-size: 60px;
@@ -118,7 +97,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .home .developer_rev p {
   color: #fff;
   text-align: center;

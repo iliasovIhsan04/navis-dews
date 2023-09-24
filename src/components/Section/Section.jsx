@@ -25,6 +25,7 @@ const Section = () => {
               сайтом
             </p>
             <img className="image1" src={image1} alt="" />
+            <img className="image_key" src={image2} alt="" />
           </div>
           <div className="grid_box">
             <h1>
@@ -35,7 +36,7 @@ const Section = () => {
               Создание адаптивного сайта под все существующие платформы и
               браузеры
             </p>
-            <img className="image2" src="" alt="" />
+            <img className="phone14" src={planshet} alt="" />
           </div>
           <div className="grid_box">
             <h1>Анализ рынка и конкурентов</h1>

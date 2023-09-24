@@ -1,5 +1,99 @@
-.nevidevs_projects{
-    background: url("../../img/image 401.svg")no-repeat center /cover;
-    min-height: 1125px;
-    position: relative;
+.nevidevs_projects {
+  background: url("../../img/image 401.svg") no-repeat center / cover;
+  min-height: 1125px;
+  position: relative;
+}
+.nevidevs_projects .project_name {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 1.95px;
+  text-transform: uppercase;
+  background: linear-gradient(265deg, #b9b9b9 33.88%, #fff 62.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nevidevs_projects .project_block {
+  margin-top: 80px;
+  width: 100%;
+  min-height: 695px;
+  background: linear-gradient(204deg, #bc3138 -40.52%, #8d2131 98.35%);
+  border-radius: 20px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.nevidevs_projects .project_box1 {
+  width: 100%;
+  padding: 55px;
+}
+.nevidevs_projects .project_box2 {
+  width: 100%;
+  padding: 15px;
+}
+.nevidevs_projects .project_box1 h1 {
+  color: #fff;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: 1.65px;
+  text-transform: uppercase;
+}
+.nevidevs_projects .project_box1 p {
+  width: 400px;
+  color: #d7d7d7;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.96px;
+}
+.nevidevs_projects .project_box1 h2 {
+  color: #fff;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 4.515px;
+  text-transform: uppercase;
+}
+.nevidevs_projects .project_box1 button {
+  margin-top: 50px;
+  width: 413px;
+  height: 87px;
+  stroke-width: 1px;
+  border: 1px solid #fff;
+  background: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: normal;
+}
+.nevidevs_projects .project_box2 img {
+  width: 100%;
+  border-radius: 15px;
+}
+.nevidevs_projects .slider_block {
+  width: 100%;
+}
+.nevidevs_projects .block_all {
+  width: 100%;
+  display: flex;
+}
+.nevidevs_projects .slick-prev:before {
+  position: absolute;
+  top: -435px;
+  left: 1000px;
+  color: #bc3138;
+  font-size: 25px;
+}
+.nevidevs_projects .slick-next:before {
+  position: absolute;
+  top: -435px;
+  right: 280px;
+  color: #bc3138;
+  font-size: 25px;
 }
