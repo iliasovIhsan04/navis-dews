@@ -1,6 +1,6 @@
 .home {
   background: url("../../../src/img/comp.bacground.svg") no-repeat center /
-    cover;
+  cover;
   min-height: 100vh;
   position: relative;
 }
@@ -42,16 +42,25 @@
   align-items: center;
   justify-content: center;
 }
+.home .lina {
+  width: 1px;
+  height: 80px;
+  border: 1px solid #ba0e36;
+  background: linear-gradient(180deg, #ba0e36 0%, rgba(186, 14, 54, 0) 100%);
+  margin-left: 40px;
+}
 .home .contact p {
   width: 248px;
-  height: 82px;
-  color: #fff;
+  color: #cfcfcfdc;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.54px;
-  margin-left: 50px;
+  margin-left: 40px;
+}
+.home .contact p > span {
+  color: #fff;
 }
 .home .btn {
   display: flex;

@@ -17,9 +17,10 @@ const Home = () => {
                 Связаться с нами{" "}
                 <FiArrowUpRight style={{ marginLeft: "20px" }} />
               </button>
-              <div className="lina" />
+              <div className="lina"></div>
               <p>
-                Заполните анкету и мы проконсультируем вас в течении 5 минут
+                Заполните анкету и мы <span>проконсультируем вас</span> в
+                течении <span>5 минут</span>
               </p>
             </div>
             <div className="my_developer">
@@ -37,7 +38,7 @@ const Home = () => {
                 <p>В нашем штате более 25 сотрудников</p>
               </div>
             </div>
-          </div>    
+          </div>
         </div>
       </div>
     </div>

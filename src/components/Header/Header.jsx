@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import { BiColor, BiPhoneCall } from "react-icons/bi";
-import {RxHamburgerMenu} from 'react-icons/rx'
+import { GoArrowUpRight } from "react-icons/go";
+
 const Header = () => {
+  const [modal, setModal] = useState(false);
   return (
     <div className="header">
       <div className="container">
@@ -15,7 +17,6 @@ const Header = () => {
                 <div className="burger_box1"></div>
                 <div className="burger_box2"></div>
               </div>
-              {/* <RxHamburgerMenu/> */}
             </a>
             <a to="directions" className="page">
               направления
@@ -23,7 +24,11 @@ const Header = () => {
             <a to="project" className="page">
               проекты
             </a>
-            <a to="call-me-back" className="page">
+            <a
+              onClick={() => setModal(true)}
+              to="call-me-back"
+              className="page"
+            >
               <BiPhoneCall style={{ marginRight: "10px" }} />
               перезвоните мне
             </a>
@@ -32,6 +37,37 @@ const Header = () => {
             </a>
           </div>
         </div>
+        {modal && (
+          <div className="modal_block">
+            <div className="modal_block_one">
+              <span onClick={() => setModal(false)} className="modalX">
+                x
+              </span>
+              <h1>Заполните данные, чтобы получить бесплатную консультацию</h1>
+              <div className="input_block">
+                <input className="input_box" placeholder="Введите Ваше имя" />
+                <input className="input_box" placeholder="Введите Ваш номер" />
+                <textarea
+                  className="input_box"
+                  placeholder="Что вас интересует?"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <button className="modal_btn">
+                Оставить заявку{" "}
+                <GoArrowUpRight size={25} style={{ marginLeft: "20px" }} />
+              </button>
+              <p>
+                Нажимая на кнопку, вы даете согласие на обработку своих
+                персональных данных и соглашаетесь
+                <span>с политикой конфиденциальности</span>
+              </p>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

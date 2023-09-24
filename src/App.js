@@ -7,6 +7,7 @@ import NevidevsProjects from "./components/ NevidevsProjects/NevidevsProjects";
 import OurPartners from "./components/OurPartners/OurPartners";
 import ReviewClients from "./components/ReviewClients/ReviewClients";
 import Footer from "./components/Footer/Footer";
+import Modal from "./components/Modal/Modal";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <NevidevsProjects />
       <OurPartners />
       <ReviewClients/>
+      <Modal/>
       <Footer />
     </div>
   );

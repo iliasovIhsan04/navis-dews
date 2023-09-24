@@ -51,3 +51,105 @@
   width: 48px;
   background: #bc3138;
 }
+.header .modal_block {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  flex-shrink: 0;
+  background: rgba(19, 19, 19, 0.52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.header .modal_block_one {
+  max-width: 800px;
+  min-height: 822px;
+  border-radius: 22px;
+  background: linear-gradient(202deg, #bc3138 -37.45%, #8d2131 100%);
+  padding: 70px;
+  min-height: 906px;
+  background-color: rgba(23, 24, 34, 1);
+  transform: scale(0.5);
+  transition: 0.4s all;
+  margin-top: 70px;
+  border-radius: 20px;
+  color: #fff;
+}
+.header .modal_block h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 2.66px;
+}
+.header .modal_block p {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #c5c5c5;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.48px;
+}
+.header .modal_block p > span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 0.48px;
+}
+.header .input_block {
+  display: flex;
+  flex-direction: column;
+}
+.header .input_box {
+  width: 100%;
+  min-height: 100px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #f2f2f2;
+  border: none;
+  margin-top: 20px;
+  padding: 20px;
+  outline: none;
+}
+.header .input_box::placeholder {
+  color: #8e8e8e;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+.header .modal_btn {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  /* background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%); */
+  background: blue;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 50px;
+}
+.header .modalX {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  font-size: 50px;
+  color: #fff;
+  cursor: pointer;
+}
