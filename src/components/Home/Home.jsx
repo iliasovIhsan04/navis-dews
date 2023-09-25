@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { FiArrowUpRight } from "react-icons/fi";
 
-const Home = () => {
+const Home = ({ setModal }) => {
   return (
     <div className="home">
       <div className="filter">
@@ -13,8 +13,8 @@ const Home = () => {
               цифровых сервисах
             </h1>
             <div className="contact">
-              <button  className="btn">
-                Связаться с нами{" "}
+              <button className="btn" onClick={() => setModal(true)}>
+                Связаться с нами
                 <FiArrowUpRight style={{ marginLeft: "20px" }} />
               </button>
               <div className="lina"></div>
@@ -24,16 +24,16 @@ const Home = () => {
               </p>
             </div>
             <div className="my_developer">
-              <div className="developer_rev">
+              <div className="developer_rev developer_rev1">
                 <h1>500+</h1>
                 <p>Разработали более 500 коммерческих предложений</p>
                 <div className="line" />
               </div>
-              <div className="developer_rev">
+              <div className="developer_rev developer_rev2">
                 <h1>5 ЛЕТ +</h1>
                 <p>Мы на рынке с 2018 года</p>
               </div>
-              <div className="developer_rev">
+              <div className="developer_rev ">
                 <h1>25</h1>
                 <p>В нашем штате более 25 сотрудников</p>
               </div>

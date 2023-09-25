@@ -1,6 +1,6 @@
 .home {
   background: url("../../../src/img/comp.bacground.svg") no-repeat center /
-  cover;
+    cover;
   min-height: 100vh;
   position: relative;
 }
@@ -84,13 +84,19 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 20px 0;
 }
 .home .developer_rev {
   width: 33.33%;
   padding: 50px 50px;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.home .developer_rev1 {
+  max-width: 480px;
+}
+.home .developer_rev2 {
+  max-width: 400px;
+  margin-left: 20px;
 }
 .home .developer_rev:last-child {
   border: none;

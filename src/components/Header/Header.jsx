@@ -7,9 +7,14 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { BiSolidPencil } from "react-icons/bi";
 import lina2 from "../../img/lina2.svg";
+import { useSpring, animated } from "react-spring";
 
-const Header = () => {
-  const [modal, setModal] = useState(false);
+const Header = ({ setModal, modal }) => {
+  const modalAnimation = useSpring({
+    opacity: modal ? 1 : 0,
+    transform: modal ? "translateY(0%)" : "translateY(-100%)",
+  });
+
   return (
     <div className="header">
       <div className="container">
@@ -38,10 +43,11 @@ const Header = () => {
             <a href="#eng" className="page">
               eng
             </a>
+            <span className="active_animation"></span>
           </div>
         </div>
         {modal && (
-          <div className="modal_block">
+          <animated.div className="modal_block" style={modalAnimation}>
             <div className="modal_block_one">
               <span onClick={() => setModal(false)} className="modalX">
                 x
@@ -63,8 +69,7 @@ const Header = () => {
                       placeholder="Введите Ваш номер"
                     />
                   </div>
-                  <div className="input">
-                    <BiSolidPencil className="input_icons" size={60} />
+                    <BiSolidPencil className="input_icons_textarea" size={60} />
                     <textarea
                       className="textarea"
                       placeholder="Что вас интересует?"
@@ -73,7 +78,6 @@ const Header = () => {
                       cols="30"
                       rows="10"
                     ></textarea>
-                  </div>
                 </div>
                 <button className="modal_btn">
                   Оставить заявку
@@ -87,8 +91,8 @@ const Header = () => {
                 <img className="lina2" src={lina2} alt="" />
               </p>
             </div>
-          </div>
-        )}
+          </animated.div>
+        )}  
       </div>
     </div>
   );
