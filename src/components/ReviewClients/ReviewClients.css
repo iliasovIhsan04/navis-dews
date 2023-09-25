@@ -1,13 +1,13 @@
 .reviews {
-  padding-top: 180px;
+  padding-top: 150px;
   width: 100%;
   min-height: 1200px;
 }
 .reviews .review_title {
   text-align: center;
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 400;
-  line-height: 80px;
+  line-height: 40px;
   letter-spacing: 1.95px;
   text-transform: uppercase;
   background: linear-gradient(264deg, #202020 25.98%, #676767 62.43%);
@@ -105,15 +105,15 @@
 }
 .reviews .slick-prev:before {
   position: absolute;
-  top: -425px;
-  left: 1030px;
+  top: -405px;
+  left: 950px;
   color: #bc3138;
   font-size: 25px;
 }
 .reviews .slick-next:before {
   position: absolute;
-  top: -425px;
-  right: 250px;
+  top: -405px;
+  right: 325px;
   color: #bc3138;
   font-size: 25px;
 }

@@ -27,9 +27,9 @@
   padding: 115px 20px 20px 20px;
   max-width: 1443px;
   text-align: center;
-  font-size: 55px;
+  font-size: 38px;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 42px;
   letter-spacing: 1.95px;
   text-transform: uppercase;
   background: linear-gradient(263deg, #b9b9b9 33.19%, #fff 96.63%);
@@ -44,7 +44,7 @@
 }
 .home .lina {
   width: 1px;
-  height: 80px;
+  height: 60px;
   border: 1px solid #ba0e36;
   background: linear-gradient(180deg, #ba0e36 0%, rgba(186, 14, 54, 0) 100%);
   margin-left: 40px;
@@ -66,11 +66,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 457px;
-  height: 100px;
+  width: 400px;
+  height: 80px;
   background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%);
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   line-height: normal;
   border: none;
@@ -97,7 +97,7 @@
 }
 .home .developer_rev h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 5.7px;
@@ -109,9 +109,9 @@
 .home .developer_rev p {
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0.6px;
-  margin-top: 38px;
+  margin-top: 30px;
 }

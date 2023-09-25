@@ -13,7 +13,7 @@ const Home = () => {
               цифровых сервисах
             </h1>
             <div className="contact">
-              <button className="btn">
+              <button  className="btn">
                 Связаться с нами{" "}
                 <FiArrowUpRight style={{ marginLeft: "20px" }} />
               </button>

@@ -64,7 +64,6 @@
   src: url("./fonts/Gilroy-Medium.ttf");
   font-weight: 500;
 }
-
 @font-face {
   font-family: Gilroy;
   src: url("./fonts/Gilroy-Semibold.ttf");
@@ -90,7 +89,6 @@
 :root {
   --green: #14ae5c;
 }
-
 li {
   list-style: none;
 }
@@ -108,8 +106,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  opacity: 0.8;
-  color: #ffffff;
+  opacity: 0.9;
 }
 .loading_div {
   width: 100%;

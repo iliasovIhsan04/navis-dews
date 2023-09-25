@@ -3,6 +3,7 @@ import "./NevidevsProjects.css";
 import { LuArrowDownLeft } from "react-icons/lu";
 import project_kartinka from "../../img/project_kartinka.svg";
 import Slider from "react-slick";
+import lina from '../../img/lina.svg'
 
 const navis_projects = [
   {
@@ -84,6 +85,7 @@ const NevidevsProjects = () => {
                   <p>{el.text}</p>
                   <p>{el.text2}</p>
                   <h2>{el.oclock}</h2>
+                  <img src={lina} alt="" />
                   <button>
                     <LuArrowDownLeft size={20} style={{ marginRight: "7px" }} />{" "}
                     {el.btn}
