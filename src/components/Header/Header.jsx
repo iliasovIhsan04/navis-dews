@@ -52,7 +52,7 @@ const Header = ({ setModal, modal }) => {
               <span onClick={() => setModal(false)} className="modalX">
                 x
               </span>
-              <h1>Заполните данные, чтобы получить бесплатную консультацию</h1>
+              <h1>Заполните данные, чтобы получить бесплатную консультацию </h1>
               <form action="">
                 <div className="input_block">
                   <div className="input">
@@ -69,15 +69,15 @@ const Header = ({ setModal, modal }) => {
                       placeholder="Введите Ваш номер"
                     />
                   </div>
-                    <BiSolidPencil className="input_icons_textarea" size={60} />
-                    <textarea
-                      className="textarea"
-                      placeholder="Что вас интересует?"
-                      name=""
-                      id=""
-                      cols="30"
-                      rows="10"
-                    ></textarea>
+                  <BiSolidPencil className="input_icons_textarea" size={60} />
+                  <textarea
+                    className="textarea"
+                    placeholder="Что вас интересует?"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                  ></textarea>
                 </div>
                 <button className="modal_btn">
                   Оставить заявку
@@ -92,7 +92,7 @@ const Header = ({ setModal, modal }) => {
               </p>
             </div>
           </animated.div>
-        )}  
+        )}
       </div>
     </div>
   );

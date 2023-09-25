@@ -96,7 +96,6 @@ const NevidevsProjects = () => {
                 </div>
               </div>
           </div>
-
             ))}
         </Slider>
       </div>
