@@ -36,6 +36,7 @@
   letter-spacing: 0.22px;
   cursor: pointer;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 .header .page:after {
   content: "";

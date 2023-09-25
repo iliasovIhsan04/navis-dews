@@ -4,7 +4,7 @@
   min-height: 100vh;
   position: relative;
 }
-.home .filter::before {
+/* .home .filter::before {
   content: "";
   width: 100%;
   top: 0px;
@@ -22,13 +22,14 @@
   justify-content: center;
   flex-direction: column;
   width: 1300px;
-}
+} */
 .home .title {
-  padding: 115px 20px 20px 20px;
+  width: 960px;
+  padding-top: 115px;
   max-width: 1443px;
   text-align: center;
-  font-size: 38px;
-  font-weight: 400;
+  font-size: 35px;
+  font-weight: 500;
   line-height: 42px;
   letter-spacing: 1.95px;
   text-transform: uppercase;
@@ -36,8 +37,10 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0 auto;
 }
 .home .contact {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,34 +79,52 @@
   border: none;
   outline: none;
   border-radius: 20px;
+  box-shadow: 5px 10px 5px rgb(103, 2, 2);
+}
+.home .btn:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
 }
 .home .my_developer {
-  background: url("../../img//kartina.svg") no-repeat center / cover;
+  width: 100%;
   border-radius: 20px;
   margin-top: 145px;
-  width: 100%;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   padding: 20px 0;
+  position: relative;
 }
 .home .developer_rev {
-  width: 33.33%;
+  width: 100%;
+  min-height: 25px;
   padding: 50px 50px;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(83deg, #8d2131 0.59%, #bc3138 100%);
+  border-radius: 15px;
 }
-.home .developer_rev1 {
-  max-width: 480px;
+.home .border_lina1 {
+  width: 3px;
+  height: 180px;
+  background: #ffffff82;
+  position: absolute;
+  top: 46px;
+  left: 432px;
+  right: 0;
 }
-.home .developer_rev2 {
-  max-width: 400px;
-  margin-left: 20px;
+.home .border_lina2 {
+  width: 2px;
+  height: 180px;
+  background: #ffffff82;
+  position: absolute;
+  top: 46px;
+  left: 866px;
+  right: 0;
 }
 .home .developer_rev:last-child {
   border: none;
 }
 .home .developer_rev h1 {
   text-align: center;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 5.7px;
@@ -117,7 +138,14 @@
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 22px;
   letter-spacing: 0.6px;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+
+@media (max-width:1000px) {
+  .home .title {
+    width: 100%;    
+  }
 }

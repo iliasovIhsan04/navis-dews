@@ -5,9 +5,9 @@
 }
 .reviews .review_title {
   text-align: center;
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 40px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
   letter-spacing: 1.95px;
   text-transform: uppercase;
   background: linear-gradient(264deg, #202020 25.98%, #676767 62.43%);
@@ -105,15 +105,15 @@
 }
 .reviews .slick-prev:before {
   position: absolute;
-  top: -405px;
-  left: 950px;
+  top: -400px;
+  left: 900px;
   color: #bc3138;
-  font-size: 25px;
+  font-size: 30px;
 }
 .reviews .slick-next:before {
   position: absolute;
-  top: -405px;
-  right: 325px;
+  top: -400px;
+  right: 375px;
   color: #bc3138;
-  font-size: 25px;
+  font-size: 30px;
 }
