@@ -6,7 +6,6 @@ import NevidevsProjects from "./components/ NevidevsProjects/NevidevsProjects";
 import OurPartners from "./components/OurPartners/OurPartners";
 import ReviewClients from "./components/ReviewClients/ReviewClients";
 import Footer from "./components/Footer/Footer";
-import Modal from "./components/Modal/Modal";
 import Directions from "./components/Directions/Directions";
 
 function App() {

@@ -112,3 +112,8 @@ button {
   align-items: center;
   justify-content: center;
 }
+.container {
+  max-width: 1140px !important;
+  width: 90% !important;
+  margin: 0 auto !important;
+}
