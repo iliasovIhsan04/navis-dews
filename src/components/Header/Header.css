@@ -69,10 +69,9 @@
 .header .modal_block {
   position: fixed;
   width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
-  right: 0;
-  height: 100%;
   flex-shrink: 0;
   background: rgba(19, 19, 19, 0.52);
   display: flex;
@@ -95,7 +94,6 @@
   color: #fff;
   margin-top: 50px;
 }
-
 .header .modal_block h1 {
   color: #fff;
   text-align: center;
@@ -129,7 +127,7 @@
 }
 .header .input {
   width: 100%;
-  min-height: 100px;
+  height: 100px;
   flex-shrink: 0;
   border-radius: 12px;
   background: #f2f2f2;
@@ -142,7 +140,7 @@
   margin-top: 6px;
   background: #f2f2f2;
   width: 100%;
-  height: 80px;
+  height: 100px;
   border: none;
   outline: none;
   font-size: 28px;
@@ -157,16 +155,16 @@
 .header .textarea::placeholder {
   padding-left: 25px;
 }
+.header .text_box {
+  position: relative;
+}
 .header .input_icons_textarea {
+  position: absolute;
   color: #aaa;
-  margin-left: 20px;
   border-right: 1px solid #aaa;
   padding-right: 20px;
-  position: absolute;
-  top: 550px;
-  right: 0;
-  left: 85px;
-  z-index: 1;
+  top: 5px;
+  left: 15px;
 }
 .header .input_box {
   margin-left: 20px;

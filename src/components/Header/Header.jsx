@@ -69,15 +69,17 @@ const Header = ({ setModal, modal }) => {
                       placeholder="Введите Ваш номер"
                     />
                   </div>
-                  <BiSolidPencil className="input_icons_textarea" size={60} />
-                  <textarea
-                    className="textarea"
-                    placeholder="Что вас интересует?"
-                    name=""
-                    id=""
-                    cols="30"
-                    rows="10"
-                  ></textarea>
+                  <div className="text_box">
+                    <BiSolidPencil className="input_icons_textarea" size={60} />
+                    <textarea
+                      className="textarea"
+                      placeholder="Что вас интересует?"
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
                 </div>
                 <button className="modal_btn">
                   Оставить заявку
