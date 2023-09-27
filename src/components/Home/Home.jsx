@@ -25,13 +25,11 @@ const Home = ({ setModal }) => {
             </div>
             <div className="my_developer">
               <div className="developer_rev">
-              <div className="border_lina1"></div>
                 <h1>500+</h1>
                 <p>Разработали более 500 коммерческих предложений</p>
                 <div className="line" />
               </div>
               <div className="developer_rev">
-                <div className="border_lina2"></div>
                 <h1>5 ЛЕТ +</h1>
                 <p>Мы на рынке с 2018 года</p>
               </div>

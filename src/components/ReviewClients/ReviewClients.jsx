@@ -35,6 +35,7 @@ const reviews = [
 const ReviewClients = () => {
   const settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -69,6 +70,7 @@ const ReviewClients = () => {
       },
     ],
   };
+
   return (
     <div className="reviews">
       <div className="container">
@@ -95,8 +97,8 @@ const ReviewClients = () => {
                   <img className="pens" src={el.img2} alt="" />
                 </div>
                 <div className="reviews_box2">
-                  <div className="text_right">
-                    <h2>{el.texting}</h2>
+                  <div>
+                    <div className="text_right">{el.texting}</div>
                   </div>
                 </div>
               </div>

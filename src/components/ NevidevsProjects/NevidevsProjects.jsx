@@ -3,7 +3,7 @@ import "./NevidevsProjects.css";
 import { LuArrowDownLeft } from "react-icons/lu";
 import project_kartinka from "../../img/project_kartinka.svg";
 import Slider from "react-slick";
-import lina from '../../img/lina.svg'
+import lina from "../../img/lina.svg";
 
 const navis_projects = [
   {
@@ -38,6 +38,7 @@ const navis_projects = [
 const NevidevsProjects = () => {
   const settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -77,14 +78,14 @@ const NevidevsProjects = () => {
       <div className="container">
         <h1 className="project_name">проекты nevidevs</h1>
         <Slider className="slider_block" {...settings}>
-            {navis_projects.map((el) => (
-          <div className="block_all">
+          {navis_projects.map((el) => (
+            <div className="block_all">
               <div className="project_block">
                 <div className="project_box1">
                   <h1>{el.title}</h1>
                   <p>{el.text}</p>
                   <p>{el.text2}</p>
-                  <h2>{el.oclock}</h2>
+                  <h1>{el.oclock}</h1>
                   <img src={lina} alt="" />
                   <button>
                     <LuArrowDownLeft size={20} style={{ marginRight: "7px" }} />{" "}
@@ -95,8 +96,8 @@ const NevidevsProjects = () => {
                   <img src={el.image} alt="" />
                 </div>
               </div>
-          </div>
-            ))}
+            </div>
+          ))}
         </Slider>
       </div>
     </div>

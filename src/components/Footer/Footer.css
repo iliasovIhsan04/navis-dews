@@ -15,23 +15,20 @@
   display: flex;
   align-items: center;
   color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: normal;
+  font-size: 18px;
+  font-weight: 500;
 }
 .footer .title_navis {
   color: #fff;
   font-size: 32px;
   font-weight: 400;
   line-height: 36px;
-  letter-spacing: 0.32px;
 }
 .footer .addres {
   display: flex;
   color: #969696;
   font-size: 16px;
   font-weight: 500;
-  line-height: normal;
   margin-top: -5px;
 }
 .footer .addres span {
@@ -42,8 +39,7 @@
 .footer .footer_box4 p {
   color: #969696;
   font-size: 16px;
-  font-weight: 500;
-  line-height: normal;
+  font-weight: 400;
   margin-top: -5px;
 }
 .footer .directions_block {
@@ -53,7 +49,7 @@
 .footer .directions_box1 h3,
 .footer .directions_box2 h3 {
   color: #fff;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0.22px;
@@ -69,13 +65,11 @@
   color: #fff;
   font-size: 22px;
   font-weight: 500;
-  line-height: normal;
 }
 .footer .phone_red {
   color: #a12835;
   font-size: 16px;
   font-weight: 500;
-  line-height: normal;
 }
 .footer .our_network {
   width: 100%;
@@ -95,23 +89,22 @@
   justify-content: center;
 }
 
-@media(max-width:500px){
-  .footer .directions_block{
+@media (max-width: 500px) {
+  .footer .directions_block {
     display: none;
   }
-  .title_navis{
+  .title_navis {
     display: none;
   }
-  .footer .footer_block{
+  .footer .footer_block {
     display: block;
-    margin-left: 50px;
   }
-  .footer_box2 .addres{
+  .footer_box2 .addres {
     width: 200px;
     display: flex;
     flex-wrap: wrap;
   }
-   .addres .span1{
+  .addres .span1 {
     width: 150px;
   }
   .footer_box2 .footer_box3 {

@@ -2,7 +2,7 @@ import React from "react";
 import "./OurPartners.css";
 import { SiSparkasse } from "react-icons/si";
 import { SiSparkpost } from "react-icons/si";
-import { BsChatSquareQuote } from "react-icons/bs";
+
 const partners = [
   {
     id: 1,

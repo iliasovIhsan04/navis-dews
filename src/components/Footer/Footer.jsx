@@ -9,7 +9,8 @@ import { FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className="footer container">
+    <div className="footer">
+      <div className="container">
         <div className="footer_block">
           <div className="footer_box1">
             <h1 className="title_navis">nevisdevs.</h1>
@@ -32,7 +33,8 @@ const Footer = () => {
               Наш офис
             </h2>
             <p className="addres">
-              находится по адресу<span className="span1">г.Бишкек, ул. Манас, 64/1</span>
+              находится по адресу
+              <span className="span1">г.Бишкек, ул. Манас, 64/1</span>
             </p>
           </div>
           <div className="footer_box3">
@@ -42,7 +44,7 @@ const Footer = () => {
             </h2>
             <p>ежедневный прием звонков</p>
             <div className="phone_box">
-              <h4>+996 999 23 00 45</h4>
+              <h2>+996 999 23 00 45</h2>
               <h5 className="phone_red">
                 <BiPhoneCall style={{ marginRight: "10px" }} />
                 перезвоните мнe
@@ -54,17 +56,18 @@ const Footer = () => {
             <p>больше о нас</p>
             <div className="our_network">
               <div className="our_network_box">
-                <LiaTelegramPlane size={25} style={{color:'#fff'}}  />
+                <LiaTelegramPlane size={25} style={{ color: "#fff" }} />
               </div>
               <div className="our_network_box">
-                <FaWhatsapp size={25} style={{color:'#fff'}}/>
+                <FaWhatsapp size={25} style={{ color: "#fff" }} />
               </div>
               <div className="our_network_box">
-                <FiInstagram size={25} style={{color:'#fff'}}/>
+                <FiInstagram size={25} style={{ color: "#fff" }} />
               </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
   );
 };
