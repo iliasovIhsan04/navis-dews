@@ -90,3 +90,9 @@
   display: flex;
   margin: 0 auto;
 }
+
+@media (max-width:500px){
+  .section .complex_text{
+    width: 318px;
+  }
+}

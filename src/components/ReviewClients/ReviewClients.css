@@ -117,3 +117,11 @@
   color: #bc3138;
   font-size: 30px;
 }
+
+@media(max-width:500px){
+  .reviews .review_title {
+    width: 200px;
+    line-height: 124.107%;
+    margin-left: 90px;
+  }
+}

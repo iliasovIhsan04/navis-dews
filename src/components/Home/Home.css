@@ -144,8 +144,46 @@
 }
 
 
-@media (max-width:1000px) {
+@media (max-width:500px),(width:100%) {
   .home .title {
     width: 100%;    
   }
+  .home .contact{
+    display: block;
+  }
+  .home .contact p{
+    padding-top: 30px;
+  }
+  .home .title{
+    width: 400px;
+    text-align: start;
+    font-size: 30px;
+  }
+  .home .btn{
+    width: 365px;
+    margin-left: 9px;
+  }
+  .home .lina{
+    margin: 0;
+    position: absolute;
+    top: 490px;
+    left: 30px;
+    width: 2px;
+  }
+  .border_lina1 {
+    display: none;
+  }
+  .posi .border_lina2{
+    display: none;
+  }
+  .home .border_lina3{
+    display: none;
+  }
+  .home .developer_rev{
+    border-bottom: 2px solid #ccc;
+    width: 380px;
+    margin-left: 5px;  
+  }
+
+ 
 }

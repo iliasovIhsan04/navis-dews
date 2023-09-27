@@ -7,7 +7,6 @@
   text-align: center;
   font-size: 35px;
   font-weight: 600;
-  line-height: 80px;
   letter-spacing: 1.95px;
   text-transform: uppercase;
   background: linear-gradient(265deg, #b9b9b9 33.88%, #fff 62.61%);
@@ -100,4 +99,46 @@
   right: 360px;
   color: #bc3138;
   font-size: 30px;
+}
+
+@media(max-width:500px){
+  .nevidevs_projects .project_name {
+    width: 200px;
+    margin-left: 90px;
+  }
+  .nevidevs_projects .project_box1 p{
+    width: 314px;
+  }
+  .nevidevs_projects .project_block {
+    width: 100%;
+  }
+  .nevidevs_projects .project_box1 img{
+    width: 200px;
+  }
+  .nevidevs_projects .project_box1 button{
+    display: none;
+  }
+  .nevidevs_projects .project_box2 {
+    width: 100%;
+    padding: 0;
+    border-radius: 9px;
+    }
+  .nevidevs_projects .project_block{
+    padding: 0;
+  }
+  .nevidevs_projects .slick-prev:before{
+    display: none;
+  }
+  .nevidevs_projects .slick-next:before{
+    display: none;
+  }
+  .nevidevs_projects .slick-track{
+    width: 100%;
+  }
+  .reviews .slick-prev:before{
+    display: none;
+  }
+  .reviews .slick-next:before{
+    display: none;
+  }
 }

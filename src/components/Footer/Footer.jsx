@@ -9,8 +9,7 @@ import { FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="container">
+    <div className="footer container">
         <div className="footer_block">
           <div className="footer_box1">
             <h1 className="title_navis">nevisdevs.</h1>
@@ -33,7 +32,7 @@ const Footer = () => {
               Наш офис
             </h2>
             <p className="addres">
-              находится по адресу<span>г.Бишкек, ул. Манас, 64/1</span>
+              находится по адресу<span className="span1">г.Бишкек, ул. Манас, 64/1</span>
             </p>
           </div>
           <div className="footer_box3">
@@ -66,7 +65,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };

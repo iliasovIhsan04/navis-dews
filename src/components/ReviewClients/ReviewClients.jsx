@@ -79,7 +79,7 @@ const ReviewClients = () => {
               <div className="reviews_block">
                 <img className="boys_img" src={boys} alt="" />
                 <div className="reviews_box1">
-                  <h1 className="founder_title">ТИЛЕК БЕГАЛИЕВ</h1>
+                  <h1 className="founder_title">Валерий Гришин</h1>
                   <div className="red_block">
                     <div className="red_box"></div>
                     <p>
