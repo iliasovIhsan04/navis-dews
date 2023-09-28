@@ -167,3 +167,14 @@
     -webkit-text-fill-color: transparent;
   }
 }
+@media (max-width: 700px) {
+  .reviews .review_title {
+    font-size: 22px;
+  }
+  .reviews {
+    margin-top: -30px;
+  }
+  .reviews .text_right {
+    margin-top: -40px;
+  }
+}

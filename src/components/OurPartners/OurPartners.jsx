@@ -41,33 +41,33 @@ const OurPartners = () => {
     cssEase: "linear",
     responsive: [
       {
-          breakpoint: 700,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
         },
+      },
       {
-          breakpoint: 650,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
+        breakpoint: 650,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
         },
+      },
       {
-          breakpoint: 500,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
-        }
-      ]
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+    ],
   };
   return (
     <div className="partners">
@@ -107,7 +107,9 @@ const OurPartners = () => {
           <Slider className="slider_block" {...settings}>
             {partners.map((el) => (
               <div className="block_slider">
-                {el.icons} {el.title}
+               <div className="block_icons">
+               {el.icons} {el.title}
+                </div> 
               </div>
             ))}
           </Slider>
