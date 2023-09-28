@@ -90,31 +90,18 @@
   right: 300px;
 }
 
+@media (max-width: 600px){
+.nevidevs_projects .project_box1 button {
+  width: 100%;    
+}
+.nevidevs_projects .project_box1 img {
+  display: none;
+}
+.nevidevs_projects .project_box2 img{
+  display: none;
+}
+}
 @media (max-width: 500px) {
-  .nevidevs_projects .project_name {
-    width: 200px;
-    margin-left: 90px;
-  }
-  .nevidevs_projects .project_box1 p {
-    width: 314px;
-  }
-  .nevidevs_projects .project_block {
-    width: 100%;
-  }
-  .nevidevs_projects .project_box1 img {
-    width: 200px;
-  }
-  .nevidevs_projects .project_box1 button {
-    display: none;
-  }
-  .nevidevs_projects .project_box2 {
-    width: 100%;
-    padding: 0;
-    border-radius: 9px;
-  }
-  .nevidevs_projects .project_block {
-    padding: 0;
-  }
   .nevidevs_projects .slick-prev:before {
     display: none;
   }

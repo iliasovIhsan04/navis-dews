@@ -2,6 +2,9 @@ import React from "react";
 import "./OurPartners.css";
 import { SiSparkasse } from "react-icons/si";
 import { SiSparkpost } from "react-icons/si";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const partners = [
   {
@@ -26,6 +29,46 @@ const partners = [
   },
 ];
 const OurPartners = () => {
+  const settings = {
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    responsive: [
+      {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+      {
+          breakpoint: 650,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+      {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        }
+      ]
+  };
   return (
     <div className="partners">
       <div className="container">
@@ -34,13 +77,15 @@ const OurPartners = () => {
           <div className="block_all">
             {partners.map((el) => (
               <div className="block">
-               {el.icons} {el.title}</div>
+                {el.icons} {el.title}
+              </div>
             ))}
           </div>
           <div className="block_all">
             {partners.map((el) => (
               <div className="block">
-               {el.icons} {el.title}</div>
+                {el.icons} {el.title}
+              </div>
             ))}
           </div>
           <div className="block_all">
@@ -57,6 +102,15 @@ const OurPartners = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div>
+          <Slider className="slider_block" {...settings}>
+            {partners.map((el) => (
+              <div className="block_slider">
+                {el.icons} {el.title}
+              </div>
+            ))}
+          </Slider>
         </div>
       </div>
     </div>

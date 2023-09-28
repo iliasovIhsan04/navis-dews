@@ -52,3 +52,30 @@
 .partners .tr_block {
   display: flex;
 }
+.partners .slider_block {
+  display: none;
+}
+.partners .block_slider {
+  margin-top: 60px;
+  width: 275px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #949494;
+  text-align: center;
+}
+@media (max-width: 800px){
+.partners .block_all .block {
+  font-size: 18px;
+  height: 70px;
+}
+}
+@media (max-width: 700px) {
+  .partners .partners_block {
+    display: none;
+  }
+  .partners .slider_block {
+    display: block;
+    font-size: 25px;
+    color: #949494;
+  }
+}
