@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .header .page {
   position: relative;
@@ -235,5 +236,14 @@
     right: 0;
     position: absolute;
     z-index: 9999;
+  }
+}
+
+@media (max-width: 700px) {
+  .header .block_all h1 {
+    margin-right: 100px;
+  }
+  .header .burger_block {
+    display: none;
   }
 }
