@@ -1,6 +1,6 @@
 .home {
-  background: rgba(0, 0, 0, 0.5) url("../../../src/img/comp.bacground.svg")
-    no-repeat center / cover;
+  background: rgba(0, 0, 0, 0.5) url("../../img/comp.bacground.svg") no-repeat
+    center / cover;
   background-blend-mode: darken;
   min-height: 0px;
   position: relative;
@@ -57,11 +57,10 @@
   outline: none;
   border-radius: 15px;
   transition: 0.2s ease;
-  box-shadow: 5px 10px 5px rgb(103, 2, 2);
 }
 .home .btn:hover {
-  opacity: 1;
-  color: #fff;
+  opacity: 0.8;
+  color: #ffffffa5;
   background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%);
 }
 .home .btn:active {
@@ -74,7 +73,6 @@
   margin-top: 145px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: 25px;
   padding: 25px 0;
   position: relative;
 }
@@ -133,12 +131,11 @@
   }
 }
 @media (max-width: 500px) {
-.home .developer_rev h1{
-  font-size: 30px;
+  .home .developer_rev h1 {
+    font-size: 30px;
+  }
+  .home .developer_rev p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
 }
-.home .developer_rev p{
-  font-size: 16px;
-  margin-top: 10px;
-}
-}
-

@@ -30,39 +30,42 @@
 }
 .nevidevs_projects .project_box1 h1 {
   color: #fff;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 .nevidevs_projects .project_box1 p {
-  max-width: 400px;
+  max-width: 300px;
   color: #d7d7d7;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   margin: 0;
   margin-bottom: 20px;
 }
 .nevidevs_projects .project_box1 img {
-  margin-bottom: 45px;
+  margin-top: -15px;
+  margin-bottom: 55px;
+  width: 200px;
 }
 .nevidevs_projects .project_box1 {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 .nevidevs_projects .project_box1 button {
-  width: 100%;
+  max-width: 300px;
   height: 55px;
   border: 1px solid #fff;
   background: transparent;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   transition: 0.2s ease;
 }
 .nevidevs_projects .project_box1 button:hover {
   transform: translate(1px, 1px);
+  background: #8d2131;
+  color: #000;
 }
 .nevidevs_projects .project_box2 img {
   width: 100%;
@@ -114,6 +117,29 @@
   .nevidevs_projects .project_box2 img {
     width: 300px;
   }
+  .nevidevs_projects .project_box1 h1 {
+    font-size: 30px;
+  }
+  .nevidevs_projects .project_box1 p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 500px) {
+  .nevidevs_projects .slick-prev:before {
+    display: none;
+  }
+  .nevidevs_projects .slick-next:before {
+    display: none;
+  }
+  .nevidevs_projects .slick-track {
+    width: 100%;
+  }
+  .reviews .slick-prev:before {
+    display: none;
+  }
+  .reviews .slick-next:before {
+    display: none;
+  }
 }
 @media (max-width: 470px) {
   .nevidevs_projects .project_box1 img {
@@ -134,6 +160,12 @@
   .nevidevs_projects .project_box1 p {
     width: 230px;
   }
+  .nevidevs_projects .project_box1 h1 {
+    font-size: 22px;
+  }
+  .nevidevs_projects .project_box1 p {
+    font-size: 16px;
+  }
 }
 @media (max-width: 370px) {
   .nevidevs_projects .project_box1 img,
@@ -151,23 +183,5 @@
   }
   .nevidevs_projects .project_box1 p {
     font-size: 14px;
-  }
-}
-
-@media (max-width: 500px) {
-  .nevidevs_projects .slick-prev:before {
-    display: none;
-  }
-  .nevidevs_projects .slick-next:before {
-    display: none;
-  }
-  .nevidevs_projects .slick-track {
-    width: 100%;
-  }
-  .reviews .slick-prev:before {
-    display: none;
-  }
-  .reviews .slick-next:before {
-    display: none;
   }
 }

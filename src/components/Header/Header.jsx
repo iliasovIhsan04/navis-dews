@@ -8,6 +8,10 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { BiSolidPencil } from "react-icons/bi";
 import lina2 from "../../img/lina2.svg";
 import { useSpring, animated } from "react-spring";
+import { LiaTelegramPlane } from "react-icons/lia";
+import { FaWhatsapp } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import phone_lina from '../../../src/img/phone_lina.svg'
 
 const Header = ({ setModal, modal }) => {
   const modalAnimation = useSpring({
@@ -15,16 +19,31 @@ const Header = ({ setModal, modal }) => {
     transform: modal ? "translateY(0%)" : "translateY(-100%)",
   });
 
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className="header">
       <div className="container">
         <div className="block_all">
           <h1> nevisdevs.</h1>
-          <div className="burger_block">
+          <div
+            className="burger_block1"
+          >
             <div className="burger_box1"></div>
             <div className="burger_box2"></div>
           </div>
-          <div className="block">
+          <div
+            className={`burger_block2 ${isMenuOpen ? "open" : ""}`}
+            onClick={toggleMenu}
+          >
+            <div className="burger_box1"></div>
+            <div className="burger_box2"></div>
+          </div>
+          <div className={`block ${isMenuOpen ? "open" : ""}`}>
             <a href="#/" className="page"></a>
             <a href="#directions" className="page">
               направления
@@ -35,7 +54,7 @@ const Header = ({ setModal, modal }) => {
             <a
               onClick={() => setModal(true)}
               to="call-me-back"
-              className="page"
+              className="page border_link"
             >
               <BiPhoneCall style={{ marginRight: "10px" }} />
               перезвоните мне
@@ -95,6 +114,57 @@ const Header = ({ setModal, modal }) => {
             </div>
           </animated.div>
         )}
+        <div className={`burger_menu ${isMenuOpen ? "open" : ""}`}>
+          <div className="response_burger_block" >
+            <h1 className="response_title"> nevisdevs.</h1>
+            <div
+              className={`burger_x ${isMenuOpen ? "open" : ""}`}
+              onClick={toggleMenu}
+            >
+            x
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#/">Главная</a>
+            </li>
+            <li>
+              <a href="#directions">Направления</a>
+            </li>
+            <li>
+              <a href="#project">Проекты</a>
+            </li>
+            <li>
+              <a onClick={() => setModal(true)} to="call-me-back">
+                Перезвоните мне
+              </a>
+            </li>
+            <li>
+              <a href="#eng">English</a>
+            </li>
+          </ul>
+          <div className="response_phone_block">
+            <div className="phone_box">
+              <h2>+996 999 23 00 45</h2>
+              <h5 className="phone_red">
+                <BiPhoneCall style={{ marginRight: "10px" }} />
+                перезвоните мнe
+              </h5>
+              <img className="phone_lina" src={phone_lina} alt="" />
+            </div>
+            <div className="our_network">
+              <div className="our_network_box">
+                <LiaTelegramPlane size={25} style={{ color: "#fff" }} />
+              </div>
+              <div className="our_network_box">
+                <FaWhatsapp size={25} style={{ color: "#fff" }} />
+              </div>
+              <div className="our_network_box">
+                <FiInstagram size={25} style={{ color: "#fff" }} />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

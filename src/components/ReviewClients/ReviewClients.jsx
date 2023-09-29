@@ -4,6 +4,7 @@ import planshet2 from "../../img/planshet2.svg";
 import boys from "../../img/boys.svg";
 import pens from "../../img/pens.svg";
 import Slider from "react-slick";
+import { BsFillChatLeftQuoteFill } from "react-icons/bs";
 
 const reviews = [
   {
@@ -72,7 +73,18 @@ const ReviewClients = () => {
                 </div>
                 <div className="reviews_box2">
                   <div>
-                    <div className="text_right">{el.texting}</div>
+                    <div className="text_right">
+                      {" "}
+                      <BsFillChatLeftQuoteFill
+                        size={20}
+                        style={{
+                          margin: "0 auto",
+                          color: "#8d2131",
+                          marginBottom: "20px",
+                        }}
+                      />{" "}
+                      {el.texting}
+                    </div>
                   </div>
                 </div>
               </div>

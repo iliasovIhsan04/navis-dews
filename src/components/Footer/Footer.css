@@ -89,12 +89,10 @@
   align-items: center;
   justify-content: center;
 }
-
 @media (max-width: 1000px) {
   .footer .directions_block {
     display: none;
   }
-
   .footer .footer .directions_box1,
   .footer .footer_box2,
   .footer .footer_box3,
