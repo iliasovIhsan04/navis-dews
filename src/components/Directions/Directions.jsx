@@ -6,8 +6,8 @@ import keydynamic from "../../img/key-dynamic-color.svg";
 import key from "../../img/key.svg";
 import nout from "../../img/nout.svg";
 import strela from "../../img/strela.svg";
-import iphone from "../../img/iphone.jpg";
 import Slider from "react-slick";
+import realno_phone from "../../img/realnphone.svg"
 
 const Directions = () => {
   const settings = {
@@ -46,7 +46,7 @@ const Directions = () => {
               Создание адаптивного сайта под все существующие платформы и
               браузеры
             </p>
-            <img src="" alt="" />
+            <img className="phone_res" src={realno_phone} alt="" />
           </div>
           <div className="box">
             <h3>Анализ рынка и конкурентов</h3>
@@ -96,7 +96,7 @@ const Directions = () => {
               Создание адаптивного сайта под все существующие платформы и
               браузеры
             </p>
-            <img src="" alt="" />
+            <img className="phone_res" src={realno_phone} alt="" />
           </div>
           <div className="box">
             <h3>Анализ рынка и конкурентов</h3>
