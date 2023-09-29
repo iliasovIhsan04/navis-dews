@@ -179,8 +179,9 @@
   color: #aaa;
   border-right: 1px solid #aaa;
   padding-right: 20px;
-  top: 5px;
-  left: 15px;
+  top: 50px;
+  left: 35px;
+  z-index: 1;
 }
 .header .input_box {
   margin-left: 20px;
