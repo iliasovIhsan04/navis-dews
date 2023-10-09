@@ -88,6 +88,9 @@
   left: 0;
   bottom: 0;
 }
+.directions .big{
+  padding: 0 10px 0 10px;
+}
 @media (max-width: 700px) {
   .directions .slider_block {
     display: block;

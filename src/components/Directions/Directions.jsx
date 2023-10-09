@@ -7,7 +7,7 @@ import key from "../../img/key.svg";
 import nout from "../../img/nout.svg";
 import strela from "../../img/strela.svg";
 import Slider from "react-slick";
-import realno_phone from "../../img/realnphone.svg"
+import realno_phone from "../../img/realnphone.svg";
 
 const Directions = () => {
   const settings = {
@@ -81,53 +81,65 @@ const Directions = () => {
           </div>
         </div>
         <Slider className="slider_block" {...settings}>
-          <div className="box">
-            <h3>Cистема управления сайтом</h3>
-            <p>
-              Разработка удобной и заточенной под клиента системы управления
-              сайтом
-            </p>
-            <img className="keydynamic" src={keydynamic} alt="" />
-            <img className="key" src={key} alt="" />
+          <div className="big">
+            <div className="box">
+              <h3>Cистема управления сайтом</h3>
+              <p>
+                Разработка удобной и заточенной под клиента системы управления
+                сайтом
+              </p>
+              <img className="keydynamic" src={keydynamic} alt="" />
+              <img className="key" src={key} alt="" />
+            </div>
           </div>
-          <div className="box">
-            <h3>Адаптивный сайт</h3>
-            <p>
-              Создание адаптивного сайта под все существующие платформы и
-              браузеры
-            </p>
-            <img className="phone_res" src={realno_phone} alt="" />
+          <div className="big">
+            <div className="box">
+              <h3>Адаптивный сайт</h3>
+              <p>
+                Создание адаптивного сайта под все существующие платформы и
+                браузеры
+              </p>
+              <img className="phone_res" src={realno_phone} alt="" />
+            </div>
           </div>
-          <div className="box">
-            <h3>Анализ рынка и конкурентов</h3>
-            <p>
-              Разработка концепции сайта, на основе анализа рынка, конкурентов и
-              тенденций
-            </p>
-            <img className="search" src={search} alt="" />
+          <div className="big">
+            <div className="box">
+              <h3>Анализ рынка и конкурентов</h3>
+              <p>
+                Разработка концепции сайта, на основе анализа рынка, конкурентов
+                и тенденций
+              </p>
+              <img className="search" src={search} alt="" />
+            </div>
           </div>
-          <div className="box">
-            <h3>SEO Оптимизация</h3>
-            <p>
-              Внутренняя SEO оптимизация сайта под поисковики Google и Яндекс
-            </p>
-            <img className="strela" src={strela} alt="" />
+          <div className="big">
+            <div className="box">
+              <h3>SEO Оптимизация</h3>
+              <p>
+                Внутренняя SEO оптимизация сайта под поисковики Google и Яндекс
+              </p>
+              <img className="strela" src={strela} alt="" />
+            </div>
           </div>
-          <div className="box">
-            <h3>Контент сайта</h3>
-            <p>
-              При необходимости написание вкусного, продающего контента для
-              сайта
-            </p>
-            <img className="nout" src={nout} alt="" />
+          <div className="big">
+            <div className="box">
+              <h3>Контент сайта</h3>
+              <p>
+                При необходимости написание вкусного, продающего контента для
+                сайта
+              </p>
+              <img className="nout" src={nout} alt="" />
+            </div>
           </div>
-          <div className="box">
-            <h3>UX UI Дизайн</h3>
-            <p>
-              Разработка концепции сайта, на основе анализа рынка, конкурентов и
-              тенденций
-            </p>
-            <img className="comp" src={comp} alt="" />
+          <div className="big">
+            <div className="box">
+              <h3>UX UI Дизайн</h3>
+              <p>
+                Разработка концепции сайта, на основе анализа рынка, конкурентов
+                и тенденций
+              </p>
+              <img className="comp" src={comp} alt="" />
+            </div>
           </div>
         </Slider>
       </div>

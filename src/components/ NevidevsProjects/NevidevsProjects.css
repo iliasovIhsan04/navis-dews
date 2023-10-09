@@ -19,7 +19,7 @@
 .nevidevs_projects .project_block {
   margin: 0 auto;
   margin-top: 45px;
-  width: 90%;
+  width: 100%;
   min-height: 0;
   background: linear-gradient(204deg, #bc3138 -40.52%, #8d2131 98.35%);
   border-radius: 15px;
@@ -77,6 +77,7 @@
 .nevidevs_projects .block_all {
   width: 100%;
   display: flex;
+  padding: 0 5px 0 5px;
 }
 .nevidevs_projects .slick-prev:before {
   position: absolute;
