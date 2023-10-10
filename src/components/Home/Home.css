@@ -141,7 +141,6 @@
   }
   .home .btn {
     width: 400px;
-    height: 70px;
   }
 }
 @media (max-width: 500px) {
@@ -157,7 +156,7 @@
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   }
   .home .btn {
-    height: 60px;
+    height: 65px;
     font-size: 16px;
   }
 }
