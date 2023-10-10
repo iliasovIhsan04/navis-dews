@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: center;
   width: 270px;
-  height: 80px;
+  height: 70px;
   background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%);
   color: #fff;
   font-size: 20px;
@@ -59,7 +59,7 @@
   transition: 0.2s ease;
 }
 .home .btn:hover {
-  opacity: 0.8;
+  opacity: 0.9;
   color: #ffffffa5;
   background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%);
 }
@@ -133,14 +133,17 @@
     width: 100%;
     margin-left: 0px;
   }
+  .home .title {
+    font-size: 25px;
+  }
   .home .my_developer {
     margin-top: 70px;
   }
   .home .btn {
-    width: 100%;
+    width: 400px;
+    height: 70px;
   }
 }
-
 @media (max-width: 500px) {
   .home .developer_rev h1 {
     font-size: 30px;
@@ -152,6 +155,9 @@
   .home .my_developer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-   
+  }
+  .home .btn {
+    height: 60px;
+    font-size: 16px;
   }
 }

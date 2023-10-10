@@ -1,7 +1,7 @@
 .directions {
   background: #0c0c0c;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 55px;
 }
 .directions h1 {
@@ -32,7 +32,7 @@
 .directions .box {
   width: 100%;
   min-height: 450px;
-  padding: 55px;
+  padding: 55px 25px 55px 25px;
   border-radius: 15px;
   border-radius: 22px;
   background: linear-gradient(202deg, #bc3138 -37.45%, #8d2131 100%);
@@ -100,21 +100,36 @@
   }
 }
 @media (max-width: 700px) {
+  .directions .comp {
+    margin-left: auto;
+  }
   .directions h1{
     font-size: 30px;
   }
   .directions .text{
     font-size: 14px;
+    font-weight: 500;
   }
   .directions .box h3{
-    font-size: 16px;
+    font-size: 25px;
+    font-weight: 600;
   }
   .directions .box p{
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 30px;
   }
 }
 @media (max-width: 400px) {
   .directions .box .keydynamic {
     display: none;
   }
+  .directions .comp,
+  .directions .phone_res,
+  .directions .search,
+  .directions .strela {
+    width: 270px;
+  }
 }
+
+
+

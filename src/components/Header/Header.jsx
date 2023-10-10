@@ -11,7 +11,7 @@ import { useSpring, animated } from "react-spring";
 import { LiaTelegramPlane } from "react-icons/lia";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
-import phone_lina from '../../../src/img/phone_lina.svg'
+import phone_lina from "../../../src/img/phone_lina.svg";
 
 const Header = ({ setModal, modal }) => {
   const modalAnimation = useSpring({
@@ -30,9 +30,7 @@ const Header = ({ setModal, modal }) => {
       <div className="container">
         <div className="block_all">
           <h1> nevisdevs.</h1>
-          <div
-            className="burger_block1"
-          >
+          <div className="burger_block1">
             <div className="burger_box1"></div>
             <div className="burger_box2"></div>
           </div>
@@ -51,14 +49,14 @@ const Header = ({ setModal, modal }) => {
             <a href="#project" className="page">
               проекты
             </a>
-            <a
+            <button
               onClick={() => setModal(true)}
               to="call-me-back"
-              className="page border_link"
+              className="border_link"
             >
               <BiPhoneCall style={{ marginRight: "10px" }} />
               перезвоните мне
-            </a>
+            </button>
             <a href="#eng" className="page">
               eng
             </a>
@@ -115,13 +113,13 @@ const Header = ({ setModal, modal }) => {
           </animated.div>
         )}
         <div className={`burger_menu ${isMenuOpen ? "open" : ""}`}>
-          <div className="response_burger_block" >
+          <div className="response_burger_block">
             <h1 className="response_title"> nevisdevs.</h1>
             <div
               className={`burger_x ${isMenuOpen ? "open" : ""}`}
               onClick={toggleMenu}
             >
-            x
+              x
             </div>
           </div>
           <ul>
@@ -133,11 +131,6 @@ const Header = ({ setModal, modal }) => {
             </li>
             <li>
               <a href="#project">Проекты</a>
-            </li>
-            <li>
-              <a onClick={() => setModal(true)} to="call-me-back">
-                Перезвоните мне
-              </a>
             </li>
             <li>
               <a href="#eng">English</a>
