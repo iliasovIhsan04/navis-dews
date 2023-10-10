@@ -100,6 +100,7 @@
   z-index: 9999;
 }
 .header .modal_block_one {
+  max-width: 800px;
   min-height: 822px;
   border-radius: 22px;
   background: linear-gradient(202deg, #bc3138 -37.45%, #8d2131 100%);

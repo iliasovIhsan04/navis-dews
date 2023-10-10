@@ -93,7 +93,6 @@
   top: -325px;
   right: 300px;
 }
-
 @media (max-width: 900px) {
   .nevidevs_projects .project_box1 button {
     display: none;
@@ -154,7 +153,6 @@
     width: 250px;
   }
 }
-
 @media (max-width: 400px) {
   .nevidevs_projects .project_box1 h1 {
     font-size: 22px;
@@ -170,7 +168,6 @@
     width: 200px;
   }
 }
-
 @media (max-width: 360px) {
   .nevidevs_projects .project_box1 img,
   .nevidevs_projects .project_box2 img,
