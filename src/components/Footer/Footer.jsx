@@ -71,8 +71,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        <p className="text_navis">© Nevis Devs. - 2023</p>
         </div>
-        {/* <p className="text_navis">© Nevis Devs. - 2023</p> */}
       </div>
     </div>
   );
