@@ -32,7 +32,7 @@
   font-weight: 500;
   margin-top: -5px;
   flex-wrap: wrap;
-  margin: 0px 0px 0px 30px;
+  margin-left: 30px;
 }
 .footer .addres span {
   color: #a12835;
