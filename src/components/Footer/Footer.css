@@ -19,7 +19,6 @@
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 20px;
 }
 .footer .title_navis {
   color: #fff;
@@ -34,7 +33,7 @@
   font-weight: 500;
   margin-top: -5px;
   flex-wrap: wrap;
-  margin: 10px 0px 0px 30px;
+  margin: 0px 0px 0px 30px;
 }
 .footer .addres span {
   color: #a12835;
@@ -135,5 +134,8 @@
   }
   .footer .title_navis {
     display: none;
+  }
+  .footer .footer_block h2 {
+    margin-top: 25px;
   }
 }
