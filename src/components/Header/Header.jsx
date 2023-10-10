@@ -19,6 +19,18 @@ const Header = ({ setModal, modal }) => {
     transform: modal ? "translateY(0%)" : "translateY(-100%)",
   });
 
+  const handleScrollToPrice = () => {
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollTo = documentHeight - windowHeight;
+    window.scrollTo({ top: 2100, behavior: "smooth" });
+  };
+  const handleScrollToP = () => {
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollTo = documentHeight - windowHeight;
+    window.scrollTo({ top: 900, behavior: "smooth" });
+  };
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -43,10 +55,10 @@ const Header = ({ setModal, modal }) => {
           </div>
           <div className={`block ${isMenuOpen ? "open" : ""}`}>
             <a href="#/" className="page"></a>
-            <a href="#directions" className="page">
+            <a href="#directions" onClick={handleScrollToP} className="page">
               направления
             </a>
-            <a href="#project" className="page">
+            <a href="#project" onClick={handleScrollToPrice}  className="page">
               проекты
             </a>
             <button
@@ -130,7 +142,9 @@ const Header = ({ setModal, modal }) => {
               <a href="#directions">Направления</a>
             </li>
             <li>
-              <a href="#project">Проекты</a>
+              <a onClick={handleScrollToPrice} href="#project">
+                Проекты
+              </a>
             </li>
             <li>
               <a href="#eng">English</a>
