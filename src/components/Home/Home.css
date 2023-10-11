@@ -139,9 +139,9 @@
   .home .my_developer {
     margin-top: 70px;
   }
-  .home .btn {
+  /* .home .btn {
     width: 400px;
-  }
+  } */
 }
 @media (max-width: 500px) {
   .home .developer_rev h1 {
