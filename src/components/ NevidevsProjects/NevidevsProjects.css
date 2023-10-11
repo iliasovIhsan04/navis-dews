@@ -48,6 +48,7 @@
   width: 200px;
 }
 .nevidevs_projects .project_box1 {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -98,83 +99,42 @@
     display: none;
   }
 }
-@media (max-width: 600px) {
-  .nevidevs_projects .project_box1 img {
-    width: 300px;
+@media (max-width: 650px) {
+  .nevidevs_projects .project_block {
+    padding: 25px;
+    gap: 5px;
   }
   .nevidevs_projects .project_box1 p {
-    width: 300px;
-  }
-  .nevidevs_projects .project_block {
-    padding: 31px;
-    gap: 0;
-  }
-  .nevidevs_projects .project_name {
-    font-size: 22px;
-  }
-}
-@media (max-width: 525px) {
-  .nevidevs_projects .project_box2 img {
-    width: 300px;
+    font-size: 18px;
   }
   .nevidevs_projects .project_box1 h1 {
-    font-size: 30px;
-  }
-  .nevidevs_projects .project_box1 p {
+    color: #fff;
     font-size: 22px;
   }
 }
-@media (max-width: 500px) {
-  .nevidevs_projects .slick-prev:before {
-    display: none;
-  }
-  .nevidevs_projects .slick-next:before {
-    display: none;
-  }
-  .nevidevs_projects .slick-track {
+@media (max-width: 550px)  {
+  .nevidevs_projects .project_box2 {
     width: 100%;
   }
-  .reviews .slick-prev:before {
-    display: none;
-  }
-  .reviews .slick-next:before {
-    display: none;
-  }
-}
-@media (max-width: 470px) {
-  .nevidevs_projects .project_box1 img {
-    width: 250px;
-  }
-  .nevidevs_projects .project_box1 p {
-    width: 250px;
-    font-size: 14px;
+  .nevidevs_projects .project_box1 h1 {
+    color: #fff;
+    font-size: 18px;
   }
   .nevidevs_projects .project_box2 img {
-    width: 250px;
+    width: 100%;
+  }
+  .nevidevs_projects .project_block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0px;
   }
 }
-@media (max-width: 400px) {
-  .nevidevs_projects .project_box1 h1 {
-    font-size: 22px;
+@media (max-width:380px) {
+  .nevidevs_projects .project_block {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
-  .nevidevs_projects .project_box1 p {
-    font-size: 16px;
-  }
-}
-@media (max-width: 370px) {
-  .nevidevs_projects .project_box1 img,
-  .nevidevs_projects .project_box2 img,
-  .nevidevs_projects .project_box1 p {
-    width: 200px;
+  .nevidevs_projects .project_box1 img {
+    width: 170px;
   }
 }
-@media (max-width: 360px) {
-  .nevidevs_projects .project_box1 img,
-  .nevidevs_projects .project_box2 img,
-  .nevidevs_projects .project_box1 p {
-    width: 180px;
-  }
-  .nevidevs_projects .project_box1 p {
-    font-size: 14px;
-  }
-}
+
