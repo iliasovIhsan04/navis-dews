@@ -22,7 +22,6 @@
   margin-top: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
 }
 .home .lina {
@@ -60,7 +59,6 @@
 }
 .home .btn:hover {
   opacity: 0.9;
-  color: #ffffffa5;
   background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%);
 }
 .home .btn:active {
@@ -126,7 +124,6 @@
     display: none;
   }
 }
-
 @media (max-width: 650px) {
   .home .contact p {
     margin-top: 50px;
