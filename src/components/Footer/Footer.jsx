@@ -49,7 +49,7 @@ const Footer = () => {
             </h2>
             <p>ежедневный прием звонков</p>
             <div className="phone_box">
-              <h4>+996 999 23 00 45</h4>
+              <h4>+996 704 61 68 02</h4>
               <h5 className="phone_red">
                 <BiPhoneCall size={20} style={{ marginRight: "10px" }} />
                 перезвоните мнe

@@ -152,7 +152,7 @@ const Header = ({ setModal, modal }) => {
           </ul>
           <div className="response_phone_block">
             <div className="phone_box">
-              <h2>+996 999 23 00 45</h2>
+              <h2>+996 704 61 68 02</h2>
               <h5 className="phone_red">
                 <BiPhoneCall style={{ marginRight: "10px" }} />
                 перезвоните мнe
