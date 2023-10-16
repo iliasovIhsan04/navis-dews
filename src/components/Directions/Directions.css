@@ -26,7 +26,7 @@
   margin-top: 55px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
   gap: 55px;
 }
 .directions .box {
@@ -76,7 +76,6 @@
 }
 .directions .nout {
   width: 100%;
-  /* height: 100%; */
   bottom: 0;
   left: 10px;
 }
@@ -133,5 +132,8 @@
   .directions .strela,
   .directions .nout {
     width: 270px;
+  }
+  .directions .directions_boxs {
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   }
 }

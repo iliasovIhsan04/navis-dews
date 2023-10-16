@@ -351,9 +351,6 @@
   }
 }
 @media (max-width: 900px) {
-  .header .page {
-    margin-left: 15px;
-  }
   .header .border_link {
     border: none;
     width: 180px;

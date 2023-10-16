@@ -61,6 +61,7 @@
 .home .btn:hover {
   opacity: 0.9;
   background: linear-gradient(205deg, #bc3138 15.91%, #8d2131 84.09%);
+  color: rgba(255, 255, 255, 0.532);
 }
 .home .btn:active {
   box-shadow: none;
