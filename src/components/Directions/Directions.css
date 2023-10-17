@@ -92,6 +92,11 @@
 .directions .big {
   padding: 0 10px 0 10px;
 }
+@media (max-width:805px) {
+  .directions .nout {
+  width: 400px;
+  }
+}
 @media (max-width: 700px) {
   .directions .slider_block {
     display: block;
