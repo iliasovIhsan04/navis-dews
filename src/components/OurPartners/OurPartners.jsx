@@ -95,13 +95,13 @@ const OurPartners = () => {
               </div>
             ))}
           </div>
-          <div className="block_all none">
+          {/* <div className="block_all none">
             {partners.map((el) => (
               <div className="block">
                 {el.icons} {el.title}
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
         <div>
           <Slider className="slider_block" {...settings}>
