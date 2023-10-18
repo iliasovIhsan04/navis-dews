@@ -70,6 +70,9 @@
   background: #8d2131;
   color: #ffffff82;
 }
+.nevidevs_projects .project_box2 {
+  display: flex;
+}
 .nevidevs_projects .project_box2 img {
   width: 100%;
   border-radius: 5px;
@@ -96,7 +99,7 @@
   top: -325px;
   right: 300px;
 }
-@media (max-width: 982px)  {
+@media (max-width: 982px) {
   .nevidevs_projects .project_box1 {
     border-right: none;
   }

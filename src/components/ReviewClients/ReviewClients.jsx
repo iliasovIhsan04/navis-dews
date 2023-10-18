@@ -37,11 +37,11 @@ const ReviewClients = () => {
   const settings = {
     dots: false,
     arrows: false,
-    // infinite: true,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
   };
