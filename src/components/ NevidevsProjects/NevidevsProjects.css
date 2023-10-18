@@ -18,7 +18,7 @@
 }
 .nevidevs_projects .project_block {
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 50px;
   width: 100%;
   min-height: 0;
   background: linear-gradient(204deg, #bc3138 -40.52%, #8d2131 98.35%);
@@ -103,6 +103,9 @@
 @media (max-width: 700px) {
   .nevidevs_projects .project_name {
     font-size: 25px;
+  }
+  .nevidevs_projects .project_block {
+    margin-top: 35px;
   }
 }
 @media (max-width: 650px) {
