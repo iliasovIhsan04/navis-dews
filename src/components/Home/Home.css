@@ -112,8 +112,7 @@
   .home .my_developer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 20px
-    ;
+    gap: 20px;
   }
 }
 @media (max-width: 940px) {
@@ -121,7 +120,7 @@
     border-right: none;
   }
 }
-@media (max-width: 830px){
+@media (max-width: 830px) {
   .home .my_developer {
     gap: 0px;
   }
@@ -139,12 +138,19 @@
   .home .lina {
     display: none;
   }
+  .home .contact {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 650px) {
   .home .contact {
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
   }
   .home .contact p {
     margin-top: 20px;
@@ -175,5 +181,4 @@
     height: 60px;
     font-size: 16px;
   }
-
 }
