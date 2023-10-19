@@ -87,6 +87,9 @@
     display: block;
     font-size: 25px;
     color: #949494;
+    display:flex;
+    overflow-y: hidden;
+    scroll-behavior: auto;
   }
   .partners .partners_title {
     font-size: 22px;

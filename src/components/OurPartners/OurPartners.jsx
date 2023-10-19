@@ -104,7 +104,7 @@ const OurPartners = () => {
           </div>
         </div>
         <div>
-          <Slider className="slider_block" {...settings}>
+          {/* <Slider className="slider_block" {...settings}>
             {partners.map((el) => (
               <div className="block_slider">
                <div className="block_icons">
@@ -112,7 +112,16 @@ const OurPartners = () => {
                 </div> 
               </div>
             ))}
-          </Slider>
+          </Slider> */}
+          <div className="slider_block">
+            {partners.map((el) => (
+              <div className="block_slider">
+                <div className="block_icons">
+                  {el.icons} {el.title}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
