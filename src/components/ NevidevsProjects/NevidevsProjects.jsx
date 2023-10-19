@@ -57,7 +57,7 @@ const NevidevsProjects = () => {
               <div className="project_block">
                 <div className="project_box1">
                   <h1>{el.title}</h1>
-                  <p>{el.text}</p>
+                  <p>-Для <span className="construction_text">строительной компании</span>  в Алании</p>
                   <p>{el.text2}</p>
                   <h1>{el.oclock}</h1>
                   <img src={lina} alt="" />
@@ -65,6 +65,9 @@ const NevidevsProjects = () => {
                     <LuArrowDownLeft size={20} style={{ marginRight: "7px" }} />{" "}
                     {el.btn}
                   </button>
+                  <div>
+                    <p className="border_line"></p>
+                  </div>
                 </div>
                 <div className="project_box2">
                   <img src={el.image} alt="" />
