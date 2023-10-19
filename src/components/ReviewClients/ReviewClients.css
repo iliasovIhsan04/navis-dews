@@ -72,8 +72,9 @@
   font-size: 16px;
 }
 .reviews .planshet2 {
+  width: 550px;
   position: absolute;
-  top: 220px;
+  top: 270px;
   left: -50px;
 }
 .reviews .text_right {
@@ -94,9 +95,9 @@
 }
 .reviews .pens {
   position: absolute;
-  top: 205px;
+  top: 235px;
   left: 0px;
-  height: 250px;
+  height: 245px;
 }
 .reviews .block_all {
   width: 100%;
