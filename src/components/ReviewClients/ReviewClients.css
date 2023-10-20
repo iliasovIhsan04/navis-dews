@@ -178,13 +178,12 @@
     border-bottom-left-radius: 15px;
   }
   .reviews .text_right {
+    width: 100%;
     margin-left: 0px;
-    padding: 55px 30px;
     border-radius: 0;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background: linear-gradient(222deg, #f0f0f0 6.93%, #d7d7d7 95.05%);
-    width: 100%;
   }
   .reviews .pens,
   .reviews .planshet2 {

@@ -103,13 +103,13 @@
 }
 .nevidevs_projects .border_line {
   width: 1px;
-  height: 390px;
+  height: 380px;
   background: #ffffff;
   margin-right: 100px;
   position: absolute;
   top: 40px;
   right: 0;
-  left: 420px;
+  left: 430px;
 }
 .nevidevs_projects .construction_text {
   color: #d7d7d7;
